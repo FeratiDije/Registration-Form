@@ -1,0 +1,138 @@
+body{
+    color: rgb(117, 117, 117);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    background-image: linear-gradient(purple, rgb(248, 0, 157));
+}
+
+.div-form{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 75px;
+    padding-left: 55px;
+    padding-bottom: 95px;
+    padding-top: 30px;
+}
+.contact-form-h2{
+    padding-bottom: 18px;
+}
+
+.contact-form-row-col{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    font-size: 15px;
+}
+
+.contact-form-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.contact-form_input{
+    border-style: none;
+    width: 230px;
+    min-height: 41px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    background-color: rgb(246, 246, 246);
+    border-color: rgb(176, 176, 176);
+    border-radius: 3px;
+}
+
+.contact-form_input:hover{
+    background-color: rgb(228, 228, 228);
+​
+}
+
+.contact-form_label{
+    padding-bottom: 5px;
+}
+
+.gender{
+    display: flex;
+}
+.male{
+    padding-right: 40px;
+}
+
+
+#select{
+    width: 530px;
+    height: 45px;
+}
+
+.submit-button{
+    margin-top: 25px;
+    width: 150px;
+    height: 45px;
+    background-color:rgb(73, 73, 234) ;
+    border-color: rgb(73, 73, 234) ;
+    border-radius: 5px;
+    color: rgb(236, 236, 236);
+    font-size: 18px;
+}
+
+input[type='radio'] {   
+    accent-color: green;
+}
+
+input[type="text"]::placeholder {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input[type="date"]::placeholder {
+    padding-right: 10px;
+}
+
+.gender{
+    padding-bottom: 13px;
+}
+
+/* me i hek mm/dd/yy prej Birthday */
+ 
+input[type=date]::-webkit-calendar-picker-indicator {
+    padding-right: 8px;
+  }
+
+input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.contact-form_input{
+    color: rgb(143, 143, 143);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
